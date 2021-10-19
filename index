@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon Page</title>
+    <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: Arial,serif;
+}
+
+.bg{
+    background-image: url("https://i.ibb.co/pv9xw5h/photo.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+hr{
+    margin: auto;
+    width: 40%;
+}
+
+.center p, .center h1{
+    padding: 15px;
+}
+    </style>
+</head>
+<body>
+    <div class="bg">
+        <div class="center">
+            <h1>COMING SOON</h1>
+            <hr>
+            <p>50 Days Left</p>
+        </div>
+    </div>
+</body>
+</html>
